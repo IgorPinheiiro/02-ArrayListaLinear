@@ -105,4 +105,23 @@ void inserirElemento()
 void buscarElemento()
 {
 
+	int numero = 0;
+	cout << "Digite o numero do elemento" << endl;
+	cin >> numero;
+
+	for (int n = 0; n < nElementos; n++) {
+		if (numero == lista[n]) 
+
+		{
+			cout << "A posiçao e:" << n << endl;
+		}
+	}
 }
+
+
+// deve ser implementada como resposta ao exercicio
+
+
+
+
+
