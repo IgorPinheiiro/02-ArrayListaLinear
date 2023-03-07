@@ -108,17 +108,24 @@ void buscarElemento()
 	int numero = 0;
 	cout << "Digite o numero do elemento" << endl;
 	cin >> numero;
+	int position = -10;
 
 	for (int n = 0; n < nElementos; n++) {
-		if (numero == lista[n]) 
+		if (numero == lista[n])
 
 		{
 			cout << "A posiçao e:" << n << endl;
+
+			position = n;
 		}
 	}
+
+	
+
+	if (position == -10) {
+		cout << "Este valor nao existe na lista" << endl;
+ 	}
 }
-
-
 // deve ser implementada como resposta ao exercicio
 
 
